@@ -8,3 +8,6 @@ st.set_page_config(page_title="My Great ChatGPT,
 Page_icon="★"
 )
 st.header("My Great ChatGPT ★")
+
+if user_input :=st.chat_input("聞きたい事を入力してね")
+#何か入力されればここが実行される
